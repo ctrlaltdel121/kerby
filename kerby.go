@@ -13,6 +13,9 @@
 // limitations under the License.
 
 // Package kerby is a cgo wrapper for Kerberos GSSAPI
+
+//+build !windows
+
 package kerby
 
 /*
